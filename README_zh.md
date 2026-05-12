@@ -18,10 +18,6 @@ pip install -r requirements.txt
 
 ### 复现指南
 
-进入源目录：
-```
-cd ./src
-```
 运行脚本前，打开`scripts/run.sh`并输入所需服务的API密钥。例如：
 - 对于OpenAI模型（例如，GPT-4）：`OPENAI_API_KEY=""`，`OPENAI_API_BASE=""`
 - 对于阿里巴巴模型（例如，Qwen-Max）：`DASHSCOPE_API_KEY=""`
@@ -35,7 +31,6 @@ bash scripts/run.sh
 ### 评估性能
 要评估性能，请进入源目录并执行：
 ```
-cd ./src
 bash scripts/eval.sh
 ```
 
@@ -51,10 +46,8 @@ bash scripts/eval.sh
 
 ### 复现指南
 
-进入源目录：
-```
-cd ./src
-```
+进入源目录
+
 打开`scripts/run_md.sh`并输入所需服务的API密钥，如上所述。
 
 执行脚本：
